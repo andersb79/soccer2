@@ -7,7 +7,7 @@ import { db } from './firebase';
 function App() {
 
   useEffect(() => {
-
+    console.log(db);
   }  ,[])
 
   return (
